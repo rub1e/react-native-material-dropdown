@@ -514,6 +514,8 @@ export default class Dropdown extends PureComponent {
         editable={false}
         onChangeText={undefined}
         renderAccessory={renderAccessory}
+        style={{ fontFamily: "mark-medium" }}
+        labelTextStyle={{ fontFamily: "mark-medium" }}
       />
     );
   }
